@@ -1,6 +1,6 @@
 # Our direct dependencies:
-python-qt5 == 0.1.10    # underscore?
-sark == 1.0
+#python-qt5 == 0.1.10    # underscore?
+#sark == 1.0
 
 # Dependencies of provided eggs:
 networkx == 1.11
@@ -13,14 +13,14 @@ progressbar
 mulpyplexer
 cooldict
 ana
-pyelftools
+pyelftools == 0.24
 pefile
-idalink
+idalink == 0.11
 unicorn
 dpkt-fix
 enum34
 bintrees
-angr-only-z3-custom == 9002
+angr
 claripy == 6.7.1.31
 
 
